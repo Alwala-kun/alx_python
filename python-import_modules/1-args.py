@@ -15,6 +15,6 @@ if __name__ == "__main__":
 
     else:
         length = len(args)
-        print(length, "arguments:")
+        print(length,"arguments:")
         for argument in args:
-            print(f"{args.index(argument)+1} : {argument}")
+            print(f"{args.index(argument)+1}:{argument}")
