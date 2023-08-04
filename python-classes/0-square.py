@@ -1,5 +1,12 @@
 class Square:
-    '''Represents a square. with a size'''
+    """
+    Square class represents a square with a private instance attribute 'size'.
+    """
     def __init__(self,size):
-        '''Initializes the data'''
+        """
+        Constructor for Square class.
+
+        Args:
+            size (int): The size of the square.
+        """
         self.__size = size
