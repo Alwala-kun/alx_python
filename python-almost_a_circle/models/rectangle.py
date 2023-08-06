@@ -1,6 +1,6 @@
 """Class rectangle inherits from Base class"""
 from base import Base
-"""Class rectangle inherits from Base class"""
+
 class Rectangle(Base):
     """Class rectangle inherits from Base class."""
 
