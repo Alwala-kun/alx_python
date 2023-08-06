@@ -1,5 +1,5 @@
-"""Defining a base class for all other classes"""
 class Base:
+    """Defining a base class for all other classes"""
     __nb_objects = 0
     def __init__(self, id=None):
         """Initializing the base class.
