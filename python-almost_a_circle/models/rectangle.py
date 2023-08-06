@@ -1,4 +1,5 @@
 from .base import Base
+"""Class rectangle inherits from Base class"""
 class Rectangle(Base):
     """Class rectangle inherits from base"""
     def __init__(self, width, height, x=0, y=0, id=None):
