@@ -1,3 +1,4 @@
+"""Module defining the base class for all other classes."""
 class Base:
     """Defining a base class for all other classes
     Attributes:
