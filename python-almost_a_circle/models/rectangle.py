@@ -1,5 +1,5 @@
 """Class rectangle inherits from Base class"""
-from base import Base
+from .base import Base
 
 class Rectangle(Base):
     """Class rectangle inherits from Base class."""
