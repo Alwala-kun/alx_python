@@ -2,9 +2,9 @@
 an object is exactly an child class of a
 specified class
 """
+
+
 def inherits_from(obj, a_class):
-
-
     """Function that determines inheritance.Args:
 obj: object a_class: specified class"""
     obj_class = type(obj)
