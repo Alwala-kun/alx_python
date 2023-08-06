@@ -1,5 +1,7 @@
 "Defining an empty class"
 class BaseGeometry:
+
+    
     "Defining an empty class"
 
     def area(self):
@@ -45,5 +47,5 @@ class Square(Rectangle):
     def area(self):
         return self.__size ** 2
     
-
+print(issubclass(Square,Rectangle))
 
