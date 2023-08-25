@@ -103,6 +103,7 @@ class Rectangle(Base):
 
 
     def update(self,*args):
+         """Update method for the Rectangular attributes"""
          if len(args)>=1:
               self.id = args[0]
          if len(args)>=2:
