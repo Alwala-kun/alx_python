@@ -92,7 +92,9 @@ class Rectangle(Base):
     def display(self):
          """Display method for Rectangle instance."""
          for i in range(self.height()):
-              print("#"*self.width())
+              for j in range(self.width()):
+                   print("#", end = "")
+              print()
          
 
 
